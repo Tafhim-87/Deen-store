@@ -264,4 +264,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Deen Fashion** - Elevating modest fashion with premium quality and modern design. Built with ❤️ for the Muslim community.
 
-For questions or support, please open an issue or contact us at support@deenfashion.com.
+For questions or support, please open an issue or contact us at support@deenfashion.com.# Deen-store
