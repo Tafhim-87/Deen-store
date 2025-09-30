@@ -4,6 +4,7 @@ import './globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { Providers } from './Providers'
+import CartFloatingBtn from '@/components/CartFloatingBtn'
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <CartFloatingBtn />
         </Providers>
       </body>
     </html>

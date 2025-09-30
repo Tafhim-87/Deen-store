@@ -92,7 +92,7 @@ export default function CartSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="flex items-center gap-4 p-4 border border-gray-200 rounded-lg"
+            className="flex flex-col md:flex-row items-center gap-4 p-4 border border-gray-200 rounded-lg"
           >
             <img
               src={item.image}
@@ -100,10 +100,12 @@ export default function CartSection() {
               className="w-20 h-20 object-cover rounded-lg"
             />
             
-            <div className="flex-1">
+            <div className="flex-1 ">
               <h3 className="font-semibold">{item.title}</h3>
-              <p className="text-sm text-gray-600">Size: {item.size}</p>
+              <div className='flex justify-between items-center md:block'>
+                <p className="text-sm text-gray-600">Size: {item.size}</p>
               <p className="text-lg font-bold text-blue-600">৳ {item.price}</p>
+              </div>
             </div>
 
             <div className="flex items-center gap-3">

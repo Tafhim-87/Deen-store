@@ -217,12 +217,12 @@ export default function Home() {
       {/* Enhanced Hero Section */}
       <section
         ref={heroRef}
-        className="relative min-h-screen flex items-center justify-center overflow-hidden"
+        className="relative min-h-[120vh] md:min-h-screen flex items-center justify-center overflow-hidden"
       >
         {/* Animated Background with Premium Store Photo */}
         <div className="hero-bg">
           {/* colorfull gradiant */}
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 opacity-70 mix-blend-multiply"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-purple-900 to-pink-800 opacity-70 mix-blend-multiply"></div>
         </div>
 
         {/* Floating Elements */}
